@@ -1,9 +1,30 @@
+body{
+    background-image: url("https://images.designtrends.com/wp-content/uploads/2015/11/30142630/Sky-Blue-Plain-Desktop-Wallpaper1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #container{
     width: 40%;
     box-shadow: 0 0 4px rgba(0,0,0,1.0);
     margin: 100px auto;
     background-color: #f7f7f7;
     font-family: Roboto;
+}
+.fa-pencil-alt{
+    float: right;
+    
+    }
+li:hover span{
+        width: 40px;
+    }
+span{
+    background-color: #e74c3c; 
+    margin-right: 30px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+  
+
 }
 .completed{
     color: gray;
